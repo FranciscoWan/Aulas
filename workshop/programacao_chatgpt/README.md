@@ -44,7 +44,7 @@ Olá chatGPT, quero que você se comporte como um desenvolvedor senior com 10 an
 
 Este prompt serve para criar um plano de estudos sob medida, de acordo com sua rotina:
 ```
-"Olá ChatGPT, você é meu mentor de estudos. Crie uma trilha de aprendizado para me ensinar programação em (LINGUAGUEM DE PROGRAMAÇÃO QUE DESEJA APRENDER) do básico ao avançado. Quero atingir o nível de conhecimento de um programador pleno. Irei estudar (QUANTIDADE DE DIAS NA SEMANA) dias na semana, por (QUANTIDADE DE HORAS POR DIA) horas por dia. Sugira conteúdos, projetos e exercícios semanais."
+Olá ChatGPT, você é meu mentor de estudos. Crie uma trilha de aprendizado para me ensinar programação em (LINGUAGUEM DE PROGRAMAÇÃO QUE DESEJA APRENDER) do básico ao avançado. Quero atingir o nível de conhecimento de um programador pleno. Irei estudar (QUANTIDADE DE DIAS NA SEMANA) dias na semana, por (QUANTIDADE DE HORAS POR DIA) horas por dia. Sugira conteúdos, projetos e exercícios semanais.
 ```
 
 ✏️ **Dica:** Substitua os campos entre parênteses com sua realidade.
