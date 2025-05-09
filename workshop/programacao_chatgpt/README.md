@@ -59,6 +59,4 @@ Olá ChatGPT, você é meu mentor de estudos. Crie uma trilha de aprendizado par
 
 ---
 
-📁 Este repositório será atualizado com os códigos desenvolvidos durante o workshop. Fique à vontade para fazer um fork, comentar ou abrir issues com dúvidas.
-
 Bons estudos e bora codar com IA! 🚀🐍
