@@ -18,11 +18,12 @@ Aqui estão alguns links que podem ajudar durante seus estudos:
 
 🎨 **Ideias criativas para websites:**  
 - [Behance](https://www.behance.net/)  
-- [Pinterest](https://br.pinterest.com/)  
+- [Pinterest](https://br.pinterest.com/)
 
 🌈 **Paletas de cores:**  
 - [Paleta de Cores](https://paletadecores.com/)  
-- [Círculo Cromático do Figma](https://www.figma.com/pt-br/circulo-cromatico/)  
+- [Círculo Cromático do Figma](https://www.figma.com/pt-br/circulo-cromatico/)
+- [Criador de Paletas](https://palettemaker.com/)
 
 ## 🚀 Como Aproveitar Melhor  
 1. **Siga a ordem dos módulos** para construir uma base sólida  
