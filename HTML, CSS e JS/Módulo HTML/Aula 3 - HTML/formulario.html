@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: grid;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/send" method="post">
+        <div>
+            <label for="nickname">Digite seu nome</label>
+            <input type="text" name="" id="nickname" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" placeholder="email">
+        </div>
+        <div>
+            <label for="senha">Password</label>
+            <input type="password" id="senha" placeholder="Password">
+        </div>
+        <div>
+            <label for="pais">Selecione seu país</label>
+            <select name="pais" id="">
+                <option value="br">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="ars">Argentina</option>
+            </select>
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Redefinir</button>
+    </form>
+</body>
+</html>

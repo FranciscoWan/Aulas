@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .txt_field{
+            display: grid;
+            width: 300px;
+        }
+        .btn_form{
+            width: 120px;
+        }
+        .btn_form{
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="/destino_a_ser_enviado">
+        <div class="txt_field">
+            <label for="nickname">Nickname</label>
+            <input type="text" id="nickname">
+        </div>
+        <div class="txt_field">
+            <label for="senha">password</label>
+            <input type="password" id="senha">
+        </div>
+        <div class="btn_field">
+            <input type="submit" class="btn_form">
+            <input type="reset" class="btn_form">
+        </div>
+    </form>
+</body>
+</html>
