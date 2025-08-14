@@ -1,0 +1,180 @@
+/* ==== ESTILO GERAL ==== */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #F5F5F5;
+    color: #222;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ==== HEADER ==== */
+header {
+    background: #1E90FF;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-mobile {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* ==== HERO ==== */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 50px;
+    background: #fff;
+    margin-top: 60px;
+}
+
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    background: #1E90FF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ==== SEÇÕES ==== */
+section {
+    padding: 50px 0;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    background: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+}
+
+/* ==== FAQ ==== */
+.faq-item {
+    margin-bottom: 15px;
+}
+
+/* ==== CONTATO ==== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #1E90FF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ==== FOOTER ==== */
+footer {
+    background: #1E90FF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ==== RESPONSIVIDADE ==== */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: #1E90FF;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 10px;
+    }
+    .menu li {
+        margin: 10px 0;
+    }
+    .menu-mobile {
+        display: block;
+    }
+}
