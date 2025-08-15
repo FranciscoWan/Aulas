@@ -1,69 +1,62 @@
-# 📚 Workshop — Interfaces com IA no Front-End
+# Workshop — Interfaces com IA no Front-End
+
+## 📌 Visão Geral
+Este workshop tem como objetivo ensinar o desenvolvimento de **interfaces front-end** que utilizam **Inteligência Artificial** para gerar conteúdo dinâmico, interativo e personalizado.  
+Os alunos aprenderão conceitos, técnicas e ferramentas para integrar recursos de IA em aplicações web.
 
 ---
 
-## 1️⃣ Boas-vindas e Apresentação do Workshop (10 min)
-**Objetivo:** Dar as boas-vindas, apresentar o tema e criar conexão com os participantes.
-
-**Pontos a abordar:**
-- Apresentação pessoal e breve experiência.
-- Objetivo do workshop: “Aprender a usar Inteligências Artificiais para acelerar a criação de sites e interfaces.”
-- Estrutura do workshop (divisão por partes).
-- Materiais que serão utilizados (links e recursos).
-- Breve motivação sobre como a IA pode agilizar o processo criativo e produtivo no front-end.
+## 🎯 Objetivos
+- Apresentar conceitos básicos de Inteligência Artificial no contexto do front-end.
+- Criar uma aplicação prática que integra IA para gerar conteúdo visual e textual.
+- Estimular a criatividade no uso de ferramentas e bibliotecas de front-end.
 
 ---
 
-## 2️⃣ Parte 1 — Apresentação de IAs e Ferramentas para Design e Cores (25 min)
-**Objetivo:** Mostrar ferramentas que auxiliam na definição da identidade visual de um site.
+## 📚 Conteúdo Programático
+1. **Introdução à IA no Front-End**
+   - O que é IA e como aplicá-la em interfaces web.
+   - Exemplos práticos de uso.
 
-**Ferramentas:**
+2. **Ferramentas e Tecnologias**
+   - HTML, CSS, JavaScript.
+   - Image FX, This person does not exists, color whell, palette maker.
+
+3. **Projeto Prático**
+   - Desenvolvimento de uma interface web que integra IA.
+   - Funcionalidades interativas.
+   - Estilização e responsividade.
+
+4. **Boas Práticas**
+   - Performance e otimização.
+   - UX/UI voltado para experiências com IA.
+
+---
+
+## 🛠 Pré-requisitos
+- Conhecimento básico de HTML, CSS e JavaScript.
+- Conta de email, Gmail
+- Conta ativa em uma plataforma de IA (ex.: OpenAI, ImageFX).
+
+---
+
+## 📦 Recursos e Links
 - 🎨 **Círculo Cromático do Figma** → [Circulo Cromatico](https://www.figma.com/pt-br/circulo-cromatico)  
-  Explicar como usar para encontrar combinações harmônicas de cores.
 - 🎯 **Criador de Paletas (Palette Maker)** → [Palettemaker](https://palettemaker.com)  
-  Demonstrar como gerar paletas personalizadas a partir de uma cor principal.
-
-**Atividade prática rápida:**  
-Cada participante define **uma cor principal** e gera **uma paleta** para o site que irá criar.
-
----
-
-## 3️⃣ Parte 2 — Apresentação de IAs para Criação de Imagens (25 min)
-**Objetivo:** Ensinar como gerar imagens para compor o site.
-
-**Ferramentas:**
 - 🖼 **ImageFX (Google)** → [ImageFX](https://labs.google/fx)  
-  Criar imagens personalizadas baseadas em descrições (prompt engineering básico).
 - 👤 **This Person Does Not Exist** → [thispersondoesnotexist](https://thispersondoesnotexist.org)  
-  Gerar rostos realistas para uso em perfis, depoimentos ou imagens de time.
-
-**Demonstração:**  
-Criar ao vivo uma imagem para inserir em um site fictício.
 
 ---
 
-## 4️⃣ Parte 3 — Escolha do Nicho e Planejamento do Site (15 min)
-**Objetivo:** Fazer com que cada participante tenha clareza sobre o tema do site antes de criar.
+**Atividade prática:**  
+Cada participante cria sua **própria landing page personalizada**.
 
-**Passos:**
-1. Escolher **o nicho** (ex: tecnologia, moda, gastronomia, educação).
-2. Definir **o objetivo da landing page** (ex: vender produto, capturar leads, apresentar serviço).
-3. Decidir **as cores e imagens** que serão usadas (baseado nas partes anteriores).
-
-💡 **Dica:** Anotar tudo em um bloco de notas ou documento para usar na próxima etapa.
-
----
-
-## 5️⃣ Parte 4 — Criação da Landing Page com IA (35 min)
-**Objetivo:** Aplicar todo o conteúdo visto, usando o prompt fornecido para gerar o site.
-
-**Passos:**  
 Crie uma landing page completa utilizando HTML, CSS e JavaScript puro.    
 Ela deve seguir as seguintes diretrizes:  
+
 1. **prompt-base**.  
 
 ```
-
 
 🎯 **Objetivo da página**  
 [Explique o objetivo principal, ex: "Promover um curso online de programação para iniciantes" ou "Apresentar o novo aplicativo de delivery de comida"]
@@ -101,7 +94,7 @@ Ela deve seguir as seguintes diretrizes:
 - Manter design limpo e legível  
 ```
 
-2. Explicar como personalizar o prompt com:
+2. Personalizar o prompt com:
    - Nome do projeto
    - Objetivo do site
    - Paleta de cores escolhida
@@ -109,13 +102,14 @@ Ela deve seguir as seguintes diretrizes:
 3. Gerar o HTML, CSS e JavaScript.
 4. Abrir no navegador para visualizar.
 
-**Atividade prática:**  
-Cada participante cria sua **própria landing page personalizada**.
+---
+
+## 👨‍🏫 Instrutor
+**Francisco Silva**  
+Desenvolvedor e entusiasta de Inteligência Artificial.  
 
 ---
 
-## 6️⃣ Encerramento e Feedback (10 min)
-- Recapitular o que foi visto.
-- Mostrar alguns exemplos feitos pelos participantes.
-- Compartilhar dicas para continuar praticando.
-- Deixar links extras de ferramentas e referências.
+## 📝 Licença
+Este workshop está licenciado sob a [MIT License](LICENSE).
+
