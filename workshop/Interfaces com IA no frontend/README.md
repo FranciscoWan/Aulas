@@ -44,7 +44,7 @@ Os alunos aprenderão conceitos, técnicas e ferramentas para integrar recursos 
 - 🎨 **Círculo Cromático do Figma** → [Circulo Cromatico](https://www.figma.com/pt-br/circulo-cromatico)  
 - 🎯 **Criador de Paletas (Palette Maker)** → [Palettemaker](https://palettemaker.com)  
 - 🖼 **ImageFX (Google)** → [ImageFX](https://labs.google/fx)  
-- 👤 **This Person Does Not Exist** → [thispersondoesnotexist](https://thispersondoesnotexist.org)  
+- 👤 **This Person Does Not Exist** → [thispersondoesnotexist](https://thispersonnotexist.org/)  
 
 ---
 
