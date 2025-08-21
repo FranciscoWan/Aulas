@@ -1,3 +1,5 @@
+# Atividades referentes ao slide:
+
 # Atividade 1 - 
 nome = str(input("Digite um nome: "))
 idade = int(input("Digite uma idade: "))
@@ -17,3 +19,4 @@ print(f"R${real} reais equivalem a U${v_dolar:.2f} dólares")
 # Atividade 4 -
 num1 = int(input("Digite um número: "))
 print(num1%2==0)
+
