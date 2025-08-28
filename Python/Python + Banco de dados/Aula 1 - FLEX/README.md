@@ -6,6 +6,7 @@ A dificuldade cresce gradualmente: do **básico** até o **intermediário**.
 ---
 
 ## **1. Criando uma lista simples**
+Crie uma lista vazia.  
 Peça para o usuário digitar 5 números e armazene-os em uma lista.  
 Depois, exiba a lista completa.  
 
