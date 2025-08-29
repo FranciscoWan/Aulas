@@ -1,4 +1,4 @@
-# Exercícios Extras: Dicionários e Sets
+# 🐍 Exercícios: Dicionários e Sets
 
 ## Atividade 1
 Crie um dicionário que armazene o nome e a idade de 3 pessoas. Depois, exiba todas as chaves e todos os valores separadamente.
