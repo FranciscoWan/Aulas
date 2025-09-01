@@ -25,6 +25,14 @@ Aqui estão alguns links que podem ajudar durante seus estudos:
 - [Círculo Cromático do Figma](https://www.figma.com/pt-br/circulo-cromatico/)
 - [Criador de Paletas](https://palettemaker.com/)
 
+⚙️​ **Gerador de CSS:**
+- [Codepen](https://codepen.io/)
+- [Gerador de CSS-1](https://angrytools.com/css/animation/)
+- [Gerador de CSS-2](https://cssgenerator.org/)
+- [Gerador de CSS-3](https://webcode.tools/css-generator)
+- [Gerador de CSS-4](https://css-generator.netlify.app/)
+- [Gerador de gradiente](https://cssgradient.io/)
+
 ## 🚀 Como Aproveitar Melhor  
 1. **Siga a ordem dos módulos** para construir uma base sólida  
 2. **Pratique os exercícios** disponíveis em cada pasta  
