@@ -65,8 +65,7 @@ Solicite uma frase ao usuário.
 
 ### **9. Tabuada Interativa**  
 Crie um programa que peça um número ao usuário.  
-- Exiba a **tabuada desse número** de 1 a 10 usando `while`.  
-- O programa só termina quando o usuário digitar `0`.  
+- Exiba a **tabuada desse número** de 1 a 10 usando `while`.   
 
 ---
 
