@@ -33,6 +33,10 @@ Aqui estão alguns links que podem ajudar durante seus estudos:
 - [Gerador de CSS-4](https://css-generator.netlify.app/)
 - [Gerador de gradiente](https://cssgradient.io/)
 
+
+🔤  **Fontes**  
+- [Google Fonts](https://fonts.google.com/)
+
 ## 🚀 Como Aproveitar Melhor  
 1. **Siga a ordem dos módulos** para construir uma base sólida  
 2. **Pratique os exercícios** disponíveis em cada pasta  
