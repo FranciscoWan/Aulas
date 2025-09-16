@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+}
+
+/* ===== Header ===== */
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* ===== Seções ===== */
+.section {
+    padding: 60px 20px;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* ===== Sobre ===== */
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.perfil {
+    width: 180px;
+    border-radius: 50%;
+}
+
+/* ===== Habilidades ===== */
+.skills {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.skills li {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* ===== Projetos ===== */
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.projeto-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ===== Contato ===== */
+.contato-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+form button:hover {
+    background: #e84141;
+}
+
+/* ===== Rodapé ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 768px) {
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contato-grid {
+        grid-template-columns: 1fr;
+    }
+}
