@@ -1,4 +1,4 @@
-# Exercícios Readme.md
+# Resolução dos exercícios Readme.md
 
 # Exercício 1
 nome = str(input("Digite o nome do usuário: "))
