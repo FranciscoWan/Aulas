@@ -24,12 +24,12 @@ Peça ao usuário uma lista de 5 números e exiba o **maior** deles.
 ---
 
 ## **4. Contando números pares**
-Crie um programa que leia 10 números e mostre quantos deles são **pares**.  
+Crie um programa que leia 10 números, coloque eles em uma lista e mostre quantos deles são **pares**.  
 
 ---
 
 ## **5. Verificando presença em lista**
-Peça ao usuário para digitar 5 nomes e armazene-os em uma lista.  
+Peça ao usuário para digitar 3 nomes e armazene-os em uma lista.  
 Depois, solicite outro nome e verifique se ele está na lista ou não.  
 
 ---
