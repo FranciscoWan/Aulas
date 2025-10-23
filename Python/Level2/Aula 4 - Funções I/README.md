@@ -1,7 +1,6 @@
-# Exercícios Extras – Funções em Python
+# Exercícios Extras – Funções I em Python
 
-Este documento contém uma lista de exercícios práticos para treinar a criação, utilização e aplicação de funções em Python.  
-Os exercícios estão organizados do nível mais fácil ao intermediário.  
+Este documento contém uma lista de exercícios práticos para treinar a criação, utilização e aplicação de funções em Python.    
 
 ---
 
