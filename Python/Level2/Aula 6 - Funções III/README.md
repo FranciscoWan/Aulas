@@ -1,5 +1,7 @@
 # Exercícios – Funções com *args e **kwargs
 
+Essa lista de exercícios tem como objetivo explorar mais a utilização de *args e **kwargs
+
 ## Exercício 1
 Crie uma função chamada `soma_numeros` que receba uma quantidade indefinida de números usando *args e retorne a soma deles.
 
@@ -21,4 +23,4 @@ Crie uma função chamada `informacoes_pessoais` que receba nome e idade como pa
 ---
 
 ## Exercício 5
-Crie uma função chamada `listar_elementos` que receba uma lista de itens usando *args e imprima cada um deles.
+Crie uma função chamada `listar_elementos` que receba itens usando *args e imprima cada um deles.
