@@ -31,7 +31,8 @@ Aqui estão alguns links que podem ajudar durante seus estudos:
 - [Gerador de CSS-2](https://cssgenerator.org/)
 - [Gerador de CSS-3](https://webcode.tools/css-generator)
 - [Gerador de CSS-4](https://css-generator.netlify.app/)
-- [Gerador de gradiente](https://cssgradient.io/)
+- [Gerador de gradiente-1](https://cssgradient.io/)
+- [Gerador de gradiente-2](https://www.finisher.co/lab/header/)
 
 
 🔤  **Fontes**  
