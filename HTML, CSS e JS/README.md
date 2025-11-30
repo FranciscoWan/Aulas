@@ -27,6 +27,7 @@ Aqui estão alguns links que podem ajudar durante seus estudos:
 
 ⚙️​ **Gerador de CSS:**
 - [Codepen](https://codepen.io/)
+- [FreeFrontend](https://freefrontend.com/) 
 - [Gerador de CSS-1](https://angrytools.com/css/animation/)
 - [Gerador de CSS-2](https://cssgenerator.org/)
 - [Gerador de CSS-3](https://webcode.tools/css-generator)
