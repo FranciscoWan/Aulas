@@ -3,8 +3,8 @@
 
 class conta_corrente():
     # Atributos do objeto
-    def __init__(self, __cpf, saldo, banco):
-        self.cpf = __cpf
+    def __init__(self, cpf, saldo, banco):
+        self.__cpf = cpf
         self.saldo = saldo
         self.banco = banco
 
@@ -16,7 +16,7 @@ class conta_corrente():
     # Encapsulamento
     @property
     def visualizar_cpf(self):
-        return self.cpf
+        return self.__cpf
     
 
 # Herança - conta_cnpj está herdando tantos os métodos quanto os atributos de conta_corrente. 
@@ -29,8 +29,9 @@ class animal():
     def __init__(self):
         pass
 
+    # Abstração - Todo animal se move
     def mover(self):
-        print("O animal move")
+        pass
 
 # Herança
 class peixe(animal):
@@ -51,5 +52,5 @@ class abfibio(animal):
         print("Pulando")
 
 # Exemplos de linguagens com paradigma de orientação de objetos:
-# Python, Java, C++, Ruby
+# Python, Java, Ruby, Kotlin, Javascript
 

@@ -2,5 +2,5 @@
 
 # Responde eventos, como cliques de usuários ou mudança em dados
 
-# Exemplos de linguagens reativas, Javascript, RxJS (Javascript), ReactiveX
+# Exemplos de linguagens reativas, Javascript, RxJS (Javascript), ReactiveX, Java, Python
 

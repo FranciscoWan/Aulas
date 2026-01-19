@@ -1,35 +1,21 @@
 # Organiza o código em funções para dividir tarefas. 
 # As instruções são executadas em sequência, de cima para baixo, com chamadas de funções para agrupar lógica.
+# Muda as variáveis de acordo com o decorrer do código.
+# A ordem importa muito
 
-def soma(num1:int,num2:int):
-    return num1 + num2
+total = 0
 
-def sub(num1:int,num2:int):
-    return num1 - num2
+def adicionar_produto(preco):
+    global total
+    total += preco
 
-def mult(num1:int,num2:int):
-    return num1 * num2
+def aplicar_desconto():
+    global total
+    total *= 0.9
 
-def div(num1:int,num2:int):
-    return num1/num2
+adicionar_produto(100)
+aplicar_desconto()
 
-def menu():
-    numero1 = int(input("Digite um número: "))
-    numero2 = int(input("Digite outro número: "))
-    print("Digite qual operação matemática deseja realizar, +, -, * ou /")
-    opc = input("Opção: ")
-    if opc == "+":
-        print(soma(numero1,numero2))
-    elif opc == "-":
-        print(sub(numero1, numero2))
-    elif opc == "*":
-        print(mult(numero1,numero2))
-    elif opc == "/":
-        print(div(numero1,numero2))
-    else:
-        print("Opção inválida")
-
-
-menu()
+print(total)
 
 # Exemplos de linguagens de programação procedural: C, Pascal, Fortran, COBOL, BASIC.

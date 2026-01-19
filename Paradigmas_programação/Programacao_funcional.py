@@ -1,20 +1,37 @@
 # A programação funcional se concentra em funções puras e imutáveis, promovendo um estilo declarativo de programação.
-# Procedural é o mesmo paradigma de funcional? 
+# Menos dependente de ordem
+# Não muda os dados
 
-# Função sem parâmetro:
+def soma(num1:int,num2:int):
+    return num1 + num2
+
+def sub(num1:int,num2:int):
+    return num1 - num2
+
+def mult(num1:int,num2:int):
+    return num1 * num2
+
+def div(num1:int,num2:int):
+    return num1/num2
+
 def menu():
-    print('''
-Digite a opção desejada
-1 - Adicionar preço
-2 - Calcular total
-3 - Finalizar compra''')
-    opcao = input("Digite a opção desejada: ")
+    numero1 = int(input("Digite um número: "))
+    numero2 = int(input("Digite outro número: "))
+    print("Digite qual operação matemática deseja realizar, +, -, * ou /")
+    opc = input("Opção: ")
+    if opc == "+":
+        print(soma(numero1,numero2))
+    elif opc == "-":
+        print(sub(numero1, numero2))
+    elif opc == "*":
+        print(mult(numero1,numero2))
+    elif opc == "/":
+        print(div(numero1,numero2))
+    else:
+        print("Opção inválida")
+
 
 menu()
-
-# Função com parâmetro:
-def soma(num1:int,num2:int):
-    return num1+num2
 
 # Exemplos de linguagens com o paradigma de programação funcional.
 # Haskell, Lisp, Scala, Python, Javascript
