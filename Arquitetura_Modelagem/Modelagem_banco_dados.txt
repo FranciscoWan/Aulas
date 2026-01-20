@@ -1,0 +1,70 @@
+Modelagem é organizar os dados para evitar:
+. Bagunça
+. Repetição
+. Inconsistência
+. Problemas de manutenção
+
+
+Relacionamento entre tabelas:
+
+Relacionamento 1 para 1:
+Um registro se relaciona com apenas um registro de outra tabelas
+Exemplo:
+Usuário - primary key
+Perfis - foreign key
+Um usuário só pode ter um perfil
+
+Quando usar:
+. Separar dados raramente acessados
+. Organizar melhor grandes tabelas
+. Questões de segurança
+
+
+Relacionamento 1 para muitos:
+Um registro se relaciona com vários registros de outra tabelas
+Clientes - primary key
+Pedidos - foreign key
+Um cliente pode ter vários pedidos
+
+É o relacionamento mais comum!
+
+
+Relacionamento Muitos para Muitos:
+Vários registros se relacionam com vários registros
+Tebelas:
+Alunos - primary key
+Cursos - primary key
+Matrículas - foreign key
+
+As tabelas alunos e cursos se relacionam na tabela matrículas
+
+Normalização de dados
+Normalização é o processo de organizar dados para reduzir redundâncias
+
+Cada campo deve ter apenas um valor.
+
+Benefícios da Normalização:
+. Menos repetição: Cada dado aparece uma vez
+. Banco organizado: Fácil de entender
+. Manutenção fácil: Atualiza em um só lugar
+. Integridade: Menos chance de dados inconsistentes
+. Economia de espaço: Menos redundancia
+
+Quando desnormalizar?
+Às vezes, desnormalizar (duplicar dados) pode ser útil para:
+. Performance: Evitar JOINs complexos
+. Leitura rápida: Data warehouses
+. Relatórios: Dados agregados
+
+Exemplo: Guardar o nome do cliente no pedido para consultas rápidas, mesmo que ele esteja na tabela de clientes.
+
+
+Conceitos principais:
+. Arquitetura = Organização do sistema
+. Modelagem = Planejamento antes de construir
+. MVC = Separação de responsabilidades (Model, View, Controller)
+. API = Comunicação entre sistemas
+. REST vs GraphQL = Formas diferentes de pedir dados
+. Monolito vs Microserviços = Estrutura e organização do sistema
+. SQL vs NoSQL = Tipos diferentes de banco de dados
+. Modelagem de dados = Planejar como os dados serão organizados 
