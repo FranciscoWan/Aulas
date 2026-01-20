@@ -1,0 +1,40 @@
+Padrões Criacionais
+
+Singleton
+Singleton garante que exista apenas uma única instancia de uma classe em todo o sistema, e fornece um ponto de acesso global a ela.
+
+Analogia:
+. Existe apenas um controle de TV
+. Todos na casa usam o mesmo
+. Não faz sentido ter 10 controles para a TV
+
+Exemplo:
+. Pool de conexão com o banco de dados
+
+Estrutura Singleton
+Elementos principais:
+1 - Contrutor privado: impede criação de novas instâncias
+2 - Instância estática: Armazena a única instância
+3 - Método estático de acesso: Retorna a única instância
+
+Quando usar Singleton?
+Use quando:
+. Precisar de exatamente uma instância
+. Configurações globais do sistema
+. Gerenciamento de recursos compartilhados
+. Logger/sistema de logs
+. Cache global
+
+Evite quando:
+. Pode dificultar testes unitários
+. Pode criar dependências ocultas
+. Pode virar "variável global disfarçada"
+
+Cuidados com Singleton
+Atenção:
+. Pode criar acoplamento excessivo
+. Em sistemas multi-thread, precisa de sincronização
+. Pode violar o Princípio de responsabilidade única
+
+
+

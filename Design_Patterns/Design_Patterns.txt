@@ -1,0 +1,73 @@
+Design Patterns (padrões de projeto) são soluções reutilizáveis para problemas comuns no desenvolvimento de software.
+
+Importante entender:
+. NÃO são códigos prontos para copiar e colar
+. SÃO ideias e modelos de solução testados e aprovados
+. NÃO são bibliotecas ou frameworks
+. SÃO boas práticas documentadas
+
+No software existem regras a serem seguidas:
+. Sistemas de login
+. Criação de objetos
+. Comunicação entre componentes
+. Notificações de eventos
+
+Os patterns surgem para evitar que cada desenvolvedor invente soluções ruins para problemas já resolvidos.
+
+Porque usar design Patterns?
+Vantagens:
+. Código organizado: Estrutura clara e consistente
+. Facilita manutenção: Outros devs reconhecem o padrão
+. Facilita entendimento: Linguagem comum entre desenvolvedores
+. Reduz erros comuns: Soluções já testadas
+. Padrão de mercado: Usado em empresas do mundo todo
+. Acelera desenvolvimento: Não reinventa a roda
+. Facilita comunicação: Todos entendem
+
+Quando usar:
+. Problema recorrente no projeto
+. Código ficando confuso ou repetitivo
+. Necesidade de flexibilidade futura
+. Trabalho em equipe (padronizado)
+
+Quando NÃO usar:
+. Projeto muito simples
+. Adiciona complexidade desnecessária
+. Você não entende muito bem o pattern
+. Forçar pattern onde não cabe
+
+Classificação dos design patterns
+1. Padrões Criacionais
+Objetivo: Controlar como objetos são criados
+Focam em mecanismos de criação de objetos de forma adequada para cada situação
+Exemplo:
+. Singleton
+. Factory Method
+. Abstract Factory
+. Builder
+. Prototype
+
+2. Padrões Estruturais
+Objetivo: Controlar como objetos se conectam e se organizam
+Focam em como classes e objetos são compostos para formar estruturas maiores
+Exemplos:
+. Adapter
+. Facade
+. Decorator
+. Composite
+. Proxy
+. Bridge
+. Flyweight 
+
+3. Padrões Comportamentais
+Objetivos: Controlar como objetos se comunicam e distribuem responsabilidades
+Focam em algoritmos e atribuição de responsabilidades entre objetos
+Exemplos:
+. Observer
+. Strategy
+. Command
+. State
+. Template Method
+. Chain of Responsibility
+
+
