@@ -1,0 +1,71 @@
+Arquitetura Monolítica
+
+Monolito: Tudo em um único sistema
+Analogia: 
+. Uma loja com tudo dentro
+. Um único prédio com todos os departamentos
+
+Estrutura:
+. Tudo no mesmo projeto
+. Um único banco de dados
+. Deploy único
+
+Vantagens:
+. Simples de desenvolver: Tudo em um lugar
+. Fácil de começar: Menos complexidade inicial
+. Deploy simples: Um único deploy
+. Debugging mais fácil: Stack trace completa
+. Performace: Chamadas internas são rápidas
+
+Desvantagens:
+. Difícil de escalar: Precisa escalar tudo junto
+. Se cair, cai tudo: Sem redundância 
+. Acoplamento: Mudanças afetam todo o sistema
+. Deploy arriscado: Um bug pode derrubar tudo
+. Tecnologia única: Difícil mudar de tecnologia
+
+Arquitetura de Microserviço
+
+Microserviços: Sistema dividido em vários serviços independentes
+Analogia:
+. Shopping center onde cada loja é independente
+
+Estrutura:
+. Projetos separados
+. Banco de dados separados
+. Deploys independentes
+
+Vantagens:
+. Escala fácil: Escala só o que Precisa
+. Times independentes: Cada time cuida de um serviço
+. Tecnologias diferentes: Cada serviço pode usar a melhor tecnologia
+. Falhas isoladas: Se um cai, outros continuam
+. Deploy independente: Atualiza sem afetar outros
+
+Desvantagens:
+. Mais complexo: Muitas partes para gerenciar
+. Comunicação de rede: Mais lento que chamadas internas
+. Debugging difícil: Erro pode estar em múltiplos serviços
+. Mais caro: Mais infraestrutura
+. Consistência de dados: Difícil manter dados sincronizados
+
+
+Quando usar cada um?
+Use Monolito quando:
+. Está começando um projeto
+. Equipe pequena
+. Sistema simples
+. MVP (Produto mínimo viável)
+. Poucos usuários
+
+Use Microsserviços quando:
+. Sistema grande e complexo
+. Múltiplas equipes
+. Precisa escalar partes específicas
+. Alta disponibilidade é crítica
+. Diferentes partes tem diferentes requisitos
+
+Padrão comum: Começar Monolito, evoluir para Microserviços
+Muitas empresas começam com monolito e, conforme crescem, vão quebrando em microserviços. Isso é chamado de "Strangler Pattern"
+
+

@@ -1,0 +1,61 @@
+API (Application Programming interface) - é um mensageiro entra sistemas
+
+Analogia: Garçom levando pedido da cozinha para a mesa
+
+Porque usar APIs?
+. Separa o frontend do backend
+. Permitir múltiplos clientes (web, mobile, desktop)
+. Facilitar integração entre sistemas 
+. Reutilizar funcionalidade
+
+API REST (Representational State Transfer) é um estilo de arquitetura para APIs
+
+Como funciona: 
+. URLs fixas para cada recurso
+. Usa métodos HTTP (GET, POST, PUT, DELETE)
+. Cada rota retorna um tipo de dado
+. Baseado em recursos
+
+Características:
+. Simples de entender: Rotas intuitivas
+. Muito usado: Padrão da indústria
+. Stateless: Cada requisição é independente 
+. Cacheable: Pode usar cache para otimizar
+. As vezes traz dados a mais ou a menos: Nem sempre retorna o que você quer
+
+
+API GraphQL - Linguagem de consulta para APIs desenvolvida pelo Facebook
+
+Como funciona:
+. Uma única rota (geralmente/graphql)
+. Cliente pede exatamente o que quer
+. Servidor retorna apenas o solicitado
+. Baseado em um esquema de tipos
+
+Características:
+. Flexível: cliente controla os dados
+. Menos dados desnecessários: Economiza banda
+. Uma única requisição: Pode buscar dados relacionados de uma vez
+. Tipado: Esquema define tipos de dados
+. Mais complexo: Curva de aprendizado maior
+ 
+
+Comparação de REST com GraphQL:
+REST - 
+. Uma rota para cada método
+. Retorna todos os dados ao mesmo tempo
+. Múltiplas requisições para dados relacionais
+. Mais fácil de cachear
+
+GrapQL - 
+. Uma única rota
+. Retorna apenas os dados requisitados
+. Uma requisição para tudo
+. Cache mais complexo
+
+
+Cache - é uma camada de armazenamento de dados de alta velocidade, tecnica, ou componente, que guarda cópias temporárias de arquivos ou dados frequentemente acessados.
+O principal objetivo do cache é melhorar o desempenho e a eficiencia do sistema, reduzindo a necessidade de acessar a fonte de dados originais (banco de dados, API, disco rígido), que geralmente é mais lenta.
+
+
+

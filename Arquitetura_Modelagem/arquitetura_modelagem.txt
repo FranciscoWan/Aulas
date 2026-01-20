@@ -1,0 +1,68 @@
+Arquitetura e Modelagem em programação
+
+Arquitetura: Visão macro do sistema (como tudo se organiza)
+Modelagem: Visão detalhada das partes (como cada coisa funciona)
+
+Arquitetura de software - 
+A arquitetura define como o sistema é estruturado e como as partes se comunicam.
+- A função dela é:
+. Definir quantas camadas o sistema tem
+. Como o front e o back-end se comunicam
+. Onde ficam as regras de negócio
+. Onde ficam os dados
+
+Frontend
+   ↓
+Controller
+   ↓
+Service
+   ↓
+Repository
+   ↓
+Banco de Dados
+
+- Benefícios
+. Organização
+. Manutenção fácil
+. Código escalável
+
+Analogia - Seria como contruir uma casa.
+. Quantos andares
+. Onde fica a cozinha
+. Onde passam os canos
+. Onde ficam as portas e janelas
+
+Modelagem de dados -
+A modelagem de dados é o processo de planejar como as informações do sistema serão organizadas, armazenadas e relacionadas no banco de dados.
+
+Se a arquitetura é a visão macro do sistema, modelagem de dados é a visão detalhada de como os dados funcionam por dentro.
+
+Objetivos da modelagem de dados:
+. Evitar dados uplicados
+. Facilitar consultas
+. Garantir Organização
+. Tornar o sistema mais fácil de manter e evoluir
+
+Analogia - Modelagem de dados é organizar uma casa
+Antes de guardar coisas em uma casa, você pensa:
+. O que vai em cada cômodo?
+. Onde guardar roupas?
+. Onde guardar comida?
+. O que fica junto e o que fica separado?
+- No banco de dados é a mesma coisa só que com informações.
+
+Entities - Entidades
+. usuário
+. cliente
+. produto
+. pedido
+. aluno
+. curso
+Normalmente cada entidade vira uma tabela no banco de dados
+
+Exemplo de tabela: Clientes
+id
+nome
+email
+telefone
+

@@ -1,0 +1,88 @@
+Banco de dados - 
+É onde o sistema guarda informações de forma organizada e persistente.
+
+Porque usar banco de dados?
+. Armazenar dados permanentemente
+. Buscar informações rapidamente
+. Garantir integridade dos dados
+. Permitir múltiplos acessos simultâneos
+. Fazer backup e recuperação
+
+
+SQL (Structured Query Language) - Linguagem de Consulta Estruturada - Banco Relacional
+Características:
+. Estrutura rígida: Esquema definido previamente
+. Tabelas relacionadas: Dados conectados por chaves
+. ACID: Garantias de Consistência
+  - Atomicidade: Tudo ou nada
+  - Consistência: Dados sempre válidos
+  - Isolamento: Transações independentes 
+  - Durabilidade: Dados salvos permanentemente
+. SQL padrão: Linguagem universal
+
+Exemplos de bancos SQL:
+. MySQL: Mais popular, open source
+. PostgreSQL: Mais recursos, open source
+. SQL server: Microsoft
+. Oracle: Enterprise
+. SQLite: Embutido, roda localmente
+
+
+NoSQL (Not Only SQL) - Não é apenas SQL - Banco de dados não Relacional
+Características:
+. Estrutura flexível: Sem esquema fixo
+. Escalabilidade horizontal: Adiciona mais servidores facilmente
+. Tipos variados: documento, chave-valor, grafo, coluna
+. Menos relacionamento: dados geralmente desnormalizados
+. BASE ao invés de ACID:
+  - Basically Available
+  - Soft State
+  - Eventually consistent
+
+Tipos de NoSQL:
+. Documento (MongoDB, CouchDB)
+. Chave-valor (Redis, DynamoDB)
+. Grafo (Neo4j)
+. Coluna (Cassandra, HBase)
+
+Exemplos de bancos NoSQL:
+. MongoDB: Documentos
+. Redis: Chave-valor, cache
+. Firebase: Tempo real, google
+. Cassandra: Colunas escalável
+. Neo4j: Grafos
+
+
+Quando usar SQL?
+. Dados estruturados e relacionados
+. Transações financeiras
+. Sistemas que exigem consistência forte
+. Relatórios complexos
+. Dados que não mudam de estrutura frequentemente
+
+Exemplos:
+. Sistemas bancários
+. ERP (Planejamento de Recursos Empresariais)*
+. E-commerce
+. Sistema de RH
+
+Quando usar NoSQL?
+. Dados não estruturados ou variáveis
+. Grande volume de dados
+. Necessidade de Escalabilidade
+. Leituras/escritas muito rápidas
+. Estrutura de dados que muda frequentemente
+
+Exemplo:
+. Redes sociais
+. logs de sistema
+. Cache
+. Catálogo de produtos
+. IoT (Internet das Coisas)
+
+Posso usar os dois juntos?
+Sim, muitos sistemas modernos usam arquitetura poliglota (múltiplos bancos):
+
+
+ERP - é um sistema de software que integra e gerencia as principais atividades de uma empresa, como finanças, RH, produção, vendas e estoque, em uma única plataforma, centralizando dados e automatizando processos para oferecer uma visão unificada e em tempo real do negócio, melhorando a eficiência e a tomada de decisão.
+

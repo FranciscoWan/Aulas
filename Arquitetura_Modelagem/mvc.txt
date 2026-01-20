@@ -1,0 +1,58 @@
+Model View Controller (MVC)
+
+Padrão de arquitetura que separa o sistema em 3 responsabilidades distintas. Essa separação organiza o código e facilita a manutenção.
+
+Model - Dados e regras
+View - Tela
+Controller - Intermedia a conexão entre o view e o model
+
+Model - Gerencia os dados e regras de negócio
+. Representa os dados do sistema
+. Define regras de validação
+. Comunica com o banco de dados
+. Processa a lógica de negócio
+. Não sabe nada sobre a tela 
+. Só cuida dos dados 
+. Pode ser reutilizado em diferentes partes do sistema 
+. Independente da interface
+
+View - Apresentar informações ao usuário (interface)
+. Exibe dados na tela
+. Recebe interações do usuário
+. Renderiza HTML/CSS 
+. Mostra formulários e botões (GET, POST, PUT, DELETE)
+. Não sabe como salvar no banco
+. Só exibe informações 
+. Foca na experiência do usuário  
+. Pode ter múltiplas views para o mesmo model 
+
+Controller - Intermediar o model e view 
+. Recebe ações do usuário
+. Decide o que fazer
+. Coordena Model e View
+. Processa requisições
+. Age como intermediário
+. Coordena o fluxo da aplicação
+. Não tem lógica de negócio complexa
+. Delega responsabilidade 
+
+
+-- Vantagens do MVC -- 
+. Código organizado - Cada parte tem sua responsabilidade
+. Fácil manutenção - Mudanças isoladas não quebram tudo
+. Trabalho em equipe - Times podem trabalhar em partes diferentes 
+. Reutilização - Models e Views podem ser reutilizados
+. Testabilidade - Mais fácil testar cada parte separadamente
+. Muito usado em: Django, Laravel, Spring, Rails, ASP.NET
+
+Fluxo completo - 
+1. Usuário interage com a VIEW
+2. View envia ação para CONTROLLER
+3. CONTROLLER processa e chama MODEL
+4. MODEL acessa banco de dados
+5. MODEL retorna dados para CONTROLLER
+6. CONTROLLER envia para VIEW
+7. VIEW exibe resultado para o usuário 
+
+
+
