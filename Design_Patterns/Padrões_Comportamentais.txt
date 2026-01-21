@@ -1,0 +1,84 @@
+Observer (Observador)
+Observer define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda de estado, todos os seus dependentes são notificados e atualziados automaticamente
+
+Analogia:
+Instagram:
+. Você segue alguém
+. Esta pessoa faz uma nova publicação
+. Você é notificado automaticamente
+. Não precisa ficar verificando
+
+Estrutura do Observer
+Elementos principais:
+1 - Subject (Sujeito):
+    . Mantém lista de observadores 
+    . Permite adicionar/remover observadores
+    . Notifica observadores quando muda
+2 - Observer (Observador)
+    . Define interface de atualização
+    . Recebe notificações do Sujeito
+3 - ConcreteSubject
+    . Implementa sujeito específico
+    . Armazena estado de interesse
+4 - ConcreteObserver
+    . Implementa observador específico
+    . Mantém referência ao sujeito
+
+Quando usar?
+Use quando:
+. Mudanças em um objeto requer mudanças em outros
+. Não sabe quantos objetos precisam ser notificados
+. Quer baixo acoplamento
+. Sistema de eventos/notificação
+
+Exemplos práticos:
+. Sistema de notificações
+. UI reativa (frameworks modernos)
+. Sistema de logs distribuído
+. Atualização de dashboard
+
+Strategy (Estratégia)
+Strategy permite definir uma família de algoritmos, encapsular cada um deles e torná-los intercambiáveis. Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam.
+
+Analogia:
+GPS com opções de rota:
+. Rota mais rápida
+. Rota mais econômica (menos combustível)
+. Rota mais curta
+. Rota sem pedágios
+
+Você escolhe a estratégia, mas o GPS funciona igual!
+Outros exemplos:
+. Métodos de ordenação (bubble sort, quick sort, merge sort)
+. Formas de pagamento (cartão, PIX, boleto)
+. Algoritmos de compressão (ZIP, RAR, 7Z)
+
+Estrutura do Strategy
+Elementos principais:
+1 - Strategy (interface):
+    . Define interface comum para algoritmos
+2 - Concrete Strategy:
+    . Implementa algoritmo específico
+3 - Context (Contexto)
+    . Mantém referência a Strategy
+    . Permite trocar Strategy
+    . Delega trabalho para Strategy
+
+Quando usar Strategy?
+Use quando:
+. Múltiplos algoritmos relacionados
+. Precisa trocar comportamento em runtime
+. Muito if/alse ou switch/case
+. Quer isolar lógica do negócio
+
+Exemplos práticos:
+. Cálculo de frete
+. Métodos de pagamentos
+. Algoritmos de ordenação/busca
+. Compressão de arquivos 
+. Validação de dados (diferentes regras)
+. Formatação de output (JSON, XML, CSV)
+
+
+
+

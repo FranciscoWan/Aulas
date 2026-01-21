@@ -1,0 +1,56 @@
+Padrões Estruturais
+
+Adapter
+Adapter permite que interfaces incompatíveis trabalhem juntas. Atua como um tradutor entre duas interfaces diferentes.
+
+Analogia:
+. Tomada brasileira (padrão novo)
+. Aparelho com plug antigo
+. Adaptador conecta os dois
+
+Quando usar o Adapter?
+Use quando:
+. Integrar código legado com código novo
+. Usar biblioteca externa com interface diferente
+. Reutilizar classes existentes incompatíveis
+. Criar camada de compatibilidade
+
+Exemplos práticos:
+. Integrar API de pagamento externa
+. Conectar sistema legado a novo banco de dados
+. Usar biblioteca com interface diferente
+. Criar compatibilidade entre versões
+
+Facade (Fachada)
+Facade fornece uma interface simples e unificada para um conjunto complexo de interfaces em um subsistema.
+
+Analogia:
+Controle remoto TV:
+. Você aperta: botão "Netflix"
+. A TV faz:
+    . Liga
+    . Conecta no Wi-Fi
+    . Abre o app Netflix
+    . Carrega seu perfil
+    . Mostra a tela inicial
+Você não vê toda essa complexiade, apenas aperta um botão
+
+Outros exemplos:
+. Ligar um carro (girar a chave faz muitas coisas)
+. Ligar o computador (um botão ativa todo o sistema)
+. Pedir comida no delivery (app esconde toda a logistica)
+
+Quando usar Facade?
+Use quando:
+. Sistema complexo com muitas classes
+. Quer simplificar interface para cliente
+. Precisa de ponto único de entrada
+. Quer desacoplar cliente do subsistema
+
+Exemplos práticos:
+. API simplificada para biblioteca complexa
+. Interface unificada para sistema legado
+. Simplificar acesso a frameworks complexos
+. Criar camada de serviço
+
+

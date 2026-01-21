@@ -37,4 +37,27 @@ Atenção:
 . Pode violar o Princípio de responsabilidade única
 
 
+Factory Method
+Factory Method define uma interface para criar objetos, mas permite que as subclasses decidam qual classe instanciar. Centraliza a criação de objetos sem expor a lógica de criação.
+
+Analogia: 
+. Em uma fábrica são realizadas entregas através de caminhões (object Truck)
+. Apartir de hoje serão implementadas entregas através de navios (object Ship)
+. Em vez de refatorar o código inteiro, teremos um object pai chamado Transport com método "deliver()" que será criado de acordo com a entrega.
+. Os objects filho Truck e Ship herdam de Transport seu método e aplicam polimorfismo nos métodos.
+
+Quando utilizar Factory Method?
+Use quando:
+. Não sabe antecipadamente os tipos exatos de objetos
+. Quer delegar a lógica de criação
+. Precisa centralizar criação de objetos relacionados
+. Quer facilitar adição de novos tipos
+
+Exemplos práticos:
+. Sistem de pagamentos (múltiplos métodos)
+. Sistema de notificação (email, SMS, push)
+. Geração de relatórios (PDF, Excel, CSV)
+. Criação de conexões (MySQL, PostgreSQL, MongoDB)
+
+
 

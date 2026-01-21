@@ -2,8 +2,8 @@ Design Patterns (padrões de projeto) são soluções reutilizáveis para proble
 
 Importante entender:
 . NÃO são códigos prontos para copiar e colar
-. SÃO ideias e modelos de solução testados e aprovados
 . NÃO são bibliotecas ou frameworks
+. SÃO ideias e modelos de solução testados e aprovados
 . SÃO boas práticas documentadas
 
 No software existem regras a serem seguidas:
