@@ -1,0 +1,27 @@
+Estado é a informação atual da aplicação em um determinado momento. É a "memória" da aplicação - dados que mudam conforme o usuário interage.
+
+Exemplos de estado:
+Autenticação
+Carrinho de compras
+Interface
+Filtros e buscas
+
+Onde o estado pode ser armazenado?
+Variáveis Javascript
+LocalStorage
+SessionStorage
+Cookies
+Frameworks
+Gerênciadores de estado
+
+Segurança e estado
+Nunca confie em:
+. Dados do LocalStorage
+. Variáveis do frontend
+. Cookies manipuláveis
+Sempre:
+. Valide no backend
+. Não armazene dados sensíveis no frontend
+. Não confie em permissões apenas no frontend
+
+Backend sempre valida!

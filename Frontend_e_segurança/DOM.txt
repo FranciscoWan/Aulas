@@ -1,0 +1,26 @@
+DOM - Document Object Model
+
+DOM é a representação do HTML em forma de árvore de objetos que o javascript consegue acessar e modificar.
+O navegador transforma o HTML em uma estrutura de dados que pode ser manipulada programaticamente.
+
+O Javascript conversa com o HTML através do DOM
+O que podemos fazer com o DOM?
+. Ler dados: Obter valores de campos de textos
+. Alterar dados: Modificar conteúdo de elementos
+. Alterar estilos: Mudar cores, tamanhos, visibilidade
+. Criar elementos: Adicionar novos elementos a página
+. Remover elementos: Deletar elementos da página
+
+DOM e segurança
+Importante entender:
+Alterar DOM != alterar regras do backend
+. Mudar texto "Admin" no front não te torna admin
+. Esconder botão no front não impede o acesso
+. Validação apenas no DOM pode ser burlada
+
+Usuário pode manipular o DOM via DevTools
+
+Conclusão: Nunca confie apenas no frontend. Sempre valide no backend
+
+
+

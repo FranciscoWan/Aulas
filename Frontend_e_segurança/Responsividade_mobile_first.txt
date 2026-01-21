@@ -1,0 +1,3 @@
+Responsividade é a capacidade de um site se adaptar a diferentes tamanhos de tela e dispositivos.
+
+Mobile First é uma abordagem de design onde você começa desenvolvendo para dispositivos móveis e depois adapta para telas maiores.

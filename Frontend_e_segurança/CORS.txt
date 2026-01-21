@@ -1,0 +1,19 @@
+CORS é uma política de segurança implementada pelos navegadores para controlar quais sites podem fazer requisições a uma API
+
+É um mecanismo que restringe requisições HTTP entre diferentes origens.
+
+"Origem" é a combinação de:
+. Protocolo
+. Domínio
+. Porta
+
+O CORS é a proteção do navegador
+CORS não protege API diretamente:
+. Apenas navegadores respeitam CORS
+. Servidor ainda precisa de autenticação/autorização própria
+
+Boas práticas CORS
+. Nunca usa * em prod
+. Liste apenas origens confiáveis
+. Minimize headers e métodos expostos
+

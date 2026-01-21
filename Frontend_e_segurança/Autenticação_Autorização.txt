@@ -1,0 +1,17 @@
+Autenticação é o processo de verificar a identidade do usuário.
+Quem é este usuário
+
+Métodos comuns:
+. Login e senha
+. Token JWT
+. OAuth
+. Autenticação multifator
+
+Autorização é o processo de verificar se o usuário tem permissão para executar determinada ação.
+Este usuário pode fazer isso?
+
+Níveis de permissão comuns:
+. Usuário comum
+. Moderador
+. Admin
+
