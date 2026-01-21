@@ -1,0 +1,11 @@
+Princípios e boa práticas na programação
+
+Objetivos das boas práticas:
+- Código legível e compreensível
+- Fácil de manter e corrigir
+- Menor quantidade de bugs
+- Facilita o trabalho em equipe
+- Permite que o sistema evolua sem virar um pesadelo
+
+Boas práticas não são luxo - são investimento no futuro do projeto e na sua saúde mental
+

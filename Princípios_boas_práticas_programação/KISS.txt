@@ -1,0 +1,7 @@
+KISS - Keep It Simple, Stupid (Mantenha Simples)
+A solução mais simples que resolve o problema corretamente é quase sempre a melhor escolha.
+
+Exemplo ruim: usar padrões de projeto complexos para somar dois números
+Exemplo bom: total = a + b
+
+Complexidade deve ser justificada.

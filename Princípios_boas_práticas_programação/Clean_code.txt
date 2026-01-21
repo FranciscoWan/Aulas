@@ -1,0 +1,12 @@
+Clean Code (Código Limpo)
+Código limpo é aquele que qualquer desenvolvedor consegue entender rapidamente - inclusive você daqui 6 meses.
+
+Princípios importantes:
+. Nomes significativos: calcular_total_pedido() é melhor que ctp()
+. Funções pequenas e com uma única responsabilidade: ideal < 20 linhas (não é regra rígida, mas guia)
+. Código bem formatado: Indentação consistente, espaçamento adequado, linhas curtas
+. Comentários úteis
+    Errado: x += 1 # incrementa x
+    Certo: x += 1 # compensa o desconto de fidelidade
+. Tratamento adequado de erros: Não engula excessões silenciosamente.
+

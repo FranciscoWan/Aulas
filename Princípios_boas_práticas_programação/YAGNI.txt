@@ -1,0 +1,7 @@
+YAGNI - You Ain't Gonna Need It (Você Não Vai Precisar Disso)
+
+Não implemente funcionalidades, abstrações ou otimizações antes de ter evidência concreta de que serão necessárias.
+
+Exemplo ruim: Criar um sistema completo de pluguins para um programa que só precisa gerar um relatório simples.
+
+Exemplo bom: resolve o problema atual da melhor forma possível e deixar caminho para evolução futura
