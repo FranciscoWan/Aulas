@@ -64,11 +64,11 @@ Quando usar:
 
 Conceito importante
 O código deve falar a linguagem do negócio.
-Termos do código devem ser os mesmos usados pelo cliente/negócio
+Termos do código devem ser os mesmos usados pelo cliente/negócio.
 
 
 Atomic Design (Frontend)
-Estratégia para organizar componentes visuais baseada na química - do manor para o maior.
+Estratégia para organizar componentes visuais baseada na química - do menor para o maior.
 
 Vantagens:
 . Reuso máximo de componentes
