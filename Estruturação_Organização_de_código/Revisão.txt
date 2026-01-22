@@ -1,0 +1,24 @@
+Revisão final:
+Herança vs Composição:
+. Herança cria dependência forte
+. Composição é mais flexível
+. Prefira composição
+
+Modularização:
+. Organiza o crescimento do sistema
+. Divide complexidade
+
+Modularização Técnica:
+. Organiza por camadas (controller, service, repository)
+. Fácil para começar
+. Ideal para projetos pequenos/médios
+
+Modularização por Domínio (DDD):
+. Organiza por área de negócio
+. Código reflete o domínio
+. Ideal para sistemas grandes
+
+Atomic design:
+. Organiza componenetes visuais
+. Do menor (átomo) para o maior (página)
+. Ideal para design system

@@ -1,0 +1,90 @@
+Estratégia de Modularização - Conceito Geral
+O que é modularizar?
+Modularizar é dividir o sistema em partes menores, organizadas e independentes.
+Analogia:
+Sem modularização: Um quarto bagunçado com tudo misturado
+Com modularização: Um quarto cheio de gavetas organizadoras. Com cada coisa em seu lugar.
+
+Benefícios:
+. Código mais limpo e organizado
+. Reaproveitamento de componentes
+. Manutenção simples e localizada
+. Times trabalham em paralelo
+. Fácil adicionar ou remover funcionalidades
+. Testes isolados e eficientes
+
+Princípios da modularização:
+Alta coesão: Módulo faz uma coisa e faz bem
+Baixo acoplamento: Módulos independentes, pouca dependência entre si
+Responsabilidade Única: Cada módulo com propósito claro
+
+Modularização Técnica
+É a organização baseada em camadas técnicas - separa o código por tipo de responsabilidade técnica
+Exemplo (MVC / Clean Architecture)
+
+Vantagens:
+. Fácil para iniciantes entenderem
+. Padrão amplamente conhecido
+. Muito usada no backend
+. Separação clara de responsabilidades
+
+Desvantagens:
+. Pode crescer de mais ("pastas gigantes")
+. Difícil navegar entre sistemas grandes
+. Funcionalidades espalhadas por várias pastas
+
+Quando usar:
+. Projetos pequenos e médios
+. Equipes iniciantes
+. Aplicações de CRUD simples
+. Backend com arquitetura em camadas
+
+
+Modularização por Domínio (DDD)
+Domain-Driven Design (DDD) é a organização baseada no negócio, não na tecnologia.
+O código reflete a estrutura do domínio/negócio.
+
+Vantagens:
+. Código reflete o negócio
+. Fácil entender regras de domínio
+. Módulos independentes
+. Excelente para sistemas grandes
+. Times podem trabalhar em domínios diferentes
+
+Desvantagens:
+. Curva de aprendizagem maior
+. Requer entendimento do negócio
+. Pode duplicar código técnico
+
+Quando usar:
+. Sistemas grandes e complexos
+. Domínio de negócio rico
+. Múltiplas Equipes
+. Microsserviços
+
+Conceito importante
+O código deve falar a linguagem do negócio.
+Termos do código devem ser os mesmos usados pelo cliente/negócio
+
+
+Atomic Design (Frontend)
+Estratégia para organizar componentes visuais baseada na química - do manor para o maior.
+
+Vantagens:
+. Reuso máximo de componentes
+. Padronização visual
+. Escalabilidade
+. Design system organizado
+. Fácil manutenção de UI
+
+Desvantagens:
+. Pode ser excessivo para projetos pequenos
+. Requer disciplina para manter
+. Curva de aprendizagem inicial
+
+Quando usar:
+. Aplicações frontend
+. Design system
+. Múltiplos desenvolvedores frontend
+. Reutilização de componenetes importantes
+

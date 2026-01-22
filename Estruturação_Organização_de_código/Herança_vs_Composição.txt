@@ -1,0 +1,28 @@
+Herança:
+Herança é quando uma classe herda comportamentos de outra. Atributos e/ou Métodos.
+
+Quando usar:
+. Relação "é um" clara e permanente
+. Hierarquia simples e estável
+. Compartilhamento total de comportamento
+
+Problemas:
+. Classes muito acopladas
+. Mudanças no pai afetam todos os filhos
+. Hierarquia rígida e difícil de mudar
+
+
+Composição:
+Composição é quando uma classe usa outra ao invés de herdar.
+
+Vantagens: 
+. Mais Flexível
+. Menos Acoplado
+. Mais fácil de testar
+. Comportamento sob demanda
+
+Regra prática
+Prefira usar composição ao invés de Herança
+Use herança apenas quando a relação for clara, verdadeira e estável.
+
+
