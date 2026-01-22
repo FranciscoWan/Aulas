@@ -1,4 +1,6 @@
 Padrões Criacionais
+Lidam com "como os objetos são criados", abstraindo ou controlando o processo de instanciação.
+
 
 Singleton
 Singleton garante que exista apenas uma única instancia de uma classe em todo o sistema, e fornece um ponto de acesso global a ela.

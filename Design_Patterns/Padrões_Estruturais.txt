@@ -1,4 +1,5 @@
 Padrões Estruturais
+Lidam com "como classes e objetos são compostos", formando estruturas flexíveis e reutilizáveis 
 
 Adapter
 Adapter permite que interfaces incompatíveis trabalhem juntas. Atua como um tradutor entre duas interfaces diferentes.
