@@ -1,0 +1,73 @@
+O que é sanitização?
+Sanitização é o processo de limpar e validar dados recebidos do usuário para previnir ataques e garantir integridade dos dados.
+
+Objetivo: Remover ou escapar caracteres perigosos que possam ser usados para atacar o sistema.
+
+Tipos de ataques sem sanitização:
+1 - XSS (Cross-Site Scripting): Injeção de código JavaScript malicioso
+2 - SQL Injection: Injeção de comandos SQL
+3 - Command Injection: Injeção de comandos de sistema
+4 - Path Transversal: Acesso a arquivos não autorizados
+
+XSS - Cross-Site Scripting
+O ataque mais comum do frontend
+Executar scripts atravez do devtools
+
+Consequências:
+. Roubo de cookies e tokens
+. Redirecionamento para sites maliciosos
+. Modificação da página
+. Roubo de dados de ususário
+
+Previnindo XSS
+Utilizar textContent ao invés de innerHTML
+
+Boas práticas de sanitização:
+No frontend:
+. Validar formato (email, telefone, CPF)
+. Limitar tamanho de texto
+. Bloquear caracteres especiais quando desnecessário
+. Usar textContent para exibição
+
+No backend:
+. Validar todos os dados recebidos
+. Sanitizar antes de salvar no banco
+. Usar prepared statementes (SQL)
+. Escapar output ao exibir
+. Validar tipos de dados
+
+Validação vs Sanitização
+Validação verifica se um dado está correto
+Sanitização Limpa/Transforma o dado
+Ambos são necessários!
+
+Revisão final:
+DOM:
+. É a ponte entre JavaScript e HTML
+. Permite manipular página dinamicamente
+. Pode ser alterado pelo usuário (DevTools)
+
+Mobile First:
+. Começa pelo celular, expande para desktop
+. Maioria dos acessos são Mobile
+. Obriga o design simples e focado
+
+Estado:
+. É a memória da aplicação
+. Dados que mudam durante o uso
+. Precisa ser gerenciado adequadamente
+
+Autenticação vs Autorização
+. Autenticação: Quem é você?
+. Autorização: Quem pode fazer?
+. Sempre validar no backend
+
+CORS:
+. Controla o acesso entre diferentes origens
+. Proteção implementada pelo navegador
+. Backend precisa permitir explicitamente
+
+Sanitização:
+. Limpa dados do usuário
+. Previne ataques XSS, SQL Injection
+. Validar no frontend e no backend
