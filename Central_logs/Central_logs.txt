@@ -1,0 +1,51 @@
+1. O que é uma central de logs
+Uma central de log (ou log management system) é uma plataforma que coleta, armazena, organiza e analisa logs gerados por sistemas, aplicações e infraestruturas.
+
+Logs são basicamente registros de eventos que acontecem em um sistema - eles podem ser:
+
+. Erros (ex: "Falha ao salvar usuário no banco de dados")
+. Informarções de operação (ex: "Usuário x realizou login")
+. Alertas ou avisos (ex: "Consumo de CPU acima de 80%")
+
+O objetivo de centralizar esses logs é facilitar monitoramento, depuração, auditoria e análise de performance.
+
+2. Porque uma central de logs é importante?
+Imagine que sua empresa tenha vários serviços, como:
+. Backend em Node.js ou Java
+. Frontend em React
+. Microsserviços em containers Docker
+. Banco de dados e fila de mensagens
+
+Se cada sistema gera logs separadamente, você teria que entrar em cada máquina, procurar arquivos e tentar correlacionar eventos. Isso é inviável em ambientes modernos.
+
+Uma central de logs resolve isso porque:
+. Centraliza todas as Informarções
+. Permite busca e filtragem rápida (ex: "Buscar todos os erros do serviço X no último dia")
+. Ajuda na detecção de problemas antes que afetem usuários
+. Facilita auditoria e conformidade
+. Permite análise e monitoramento em tempo real
+
+3. Componentes de uma central de logs
+Uma central de logs normalmente tem três camadas
+
+    1. Coleta de logs (Log collection)
+    . Ferramentas que pegam logs de diferentes sistemas
+
+    2. Armazenamento e indexação (Storage & Indexing)
+    . Onde ficam guardados e organizados para busca rápida
+    
+    3. Visualização e análise (Visualization & Analitcs)
+    . Ferramenta que permite criar dashboards, alertas e relatórios
+
+4. Tipos de logs que você pode ter
+. Logs de aplicação: mensagem do backend/frontend
+. Logs de sistemas: eventos do servidor ou container
+. Logs de segurança: autenticação, acessos, permissões
+. Logs de rede: firewall, balanceadores, tráfego
+
+5. Benefícios principais para a empresa
+. Redução de tempo para resolução de problemas
+. Monitoramento proativo
+. Auditoria de atividades (quem fez o que)
+. Análise de comportamento do sistema e otimização
+
