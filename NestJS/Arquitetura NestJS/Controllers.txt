@@ -1,0 +1,29 @@
+Controllers - "A porta de entrada"
+
+O que é um Controller?
+O Controller é responsável por receber requisições HTTP e retornar respostas.
+
+Ele:
+. Lê dados da request
+. Chama o service correto
+. Retorna a resposta
+
+Observação: Ele não toma decisões complexas
+
+Responsabilidades do Controller
+O que um Controller DEVE fazer:
+. Receber requisição
+. Extrair parâmetros (body, params, query)
+. Delegar para o service
+. Retornar resposta
+
+O que um Controller NÃO DEVE fazer:
+. Acessar banco de dados
+. Conter regra de negócio
+
+Observe:
+. Controller não sabe como usuário é salvo
+. Ele apenas delega
+
+
+

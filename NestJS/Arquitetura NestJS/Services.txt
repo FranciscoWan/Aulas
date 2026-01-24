@@ -1,0 +1,20 @@
+Services - "O cérebro da aplicação"
+
+O que é um Service?
+O service contém a lógica de negócio da aplicação:
+. Decide o que fazer
+. Orquestra dados
+. Aplica regras
+. Fala com banco, APIs externas, filas, etc.
+
+Responsabilidades do Service
+O que um Service DEVE fazer:
+. Regras de negócio
+. Orquestração de dados
+. Chamadas ao ORM
+
+O que um Service NÃO DEVE fazer:
+. Lidar com HTTP
+. Conhecer request ou response
+
+Observação: Aqui é onde o sistema "pensa".

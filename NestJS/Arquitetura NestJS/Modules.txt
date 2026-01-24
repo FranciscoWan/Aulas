@@ -1,0 +1,24 @@
+Modules - "O organizador"
+
+O que é um Module?
+O Module é responsável por organizar a aplicação.
+
+Ele:
+. Agrupa controllers
+. Agrupa services
+. Define o que é público ou privado
+. Controla dependências
+
+Responsabilidades do Modulo
+O que um Module DEVE fazer:
+. Organizar código
+. Declarar dependências
+. Controlar escopo
+. Facilitar escalabilidade
+
+Observação: Todo projeto NestJS tem pelo menos um módulo: AppModule.
+
+Injeção de Dependência 
+Como o Controller recebe o Service?
+NestJS usa Dependency Injection
+

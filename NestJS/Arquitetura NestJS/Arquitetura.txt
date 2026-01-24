@@ -1,0 +1,11 @@
+A arquitetura do NestJ: Modules, Controllers e Services
+
+O NestJS é um framework opionado. Isso significa que ele força uma organização para evitar bagunça conforme o projeto cresce.
+
+Pensa nele como uma empresa bem organizada
+
+Visão geral:
+. Controller -> Conversa com o mundo externo
+. Service -> Pensa, decide e executa regras
+. Module -> Organiza tudo isso
+
