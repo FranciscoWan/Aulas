@@ -1,0 +1,102 @@
+Middleware no NestJS
+
+1 - O problema que o middleware resolve
+Imagine uma API com várias rotas:
+. /login
+. /users
+. /orders
+. /health
+
+Agora imagine que você precisa:
+. Logar todas as requisições
+. Medir tempo de resposta
+. Capturar IP e User-Agent
+. Fazer isso em todas as rotas
+
+Fazer isso manualmente em cada controller seria:
+. Repetitivo
+. Difícil de manter
+. Propenso a erro
+
+É aqui que o middleware entra.
+
+
+2. O que é middleware
+Definição simples:
+Middleware é uma função que intercepta uma requisição HTTP antes (e/ou depois) que ela chegue ao controller
+
+Ele fica no meio do caminho entre:
+. O cliente (request)
+. A lógica da aplicação (controller)
+
+O que o middleware pode fazer
+. Ler dados da requisição
+. Modificar a requisição
+. Executar código antes da rota
+. Executar código depois da resposta
+. Encerrar a requisição (em caso específico)
+
+O que não é papel do middleware
+. Regras de negócio
+. Validações complexas
+. Acesso a banco de dados (em regra geral)
+
+
+3. Quando usar Middleware
+Casos ideais para middleware
+. Logging
+. Métricas
+. Autenticação simples
+. Rate limiting
+. Headers customizados
+. Auditoria
+
+Quando NÃO usar middleware
+. Lógica de negócio
+. Validação DTOs
+. Transformação de resposta
+. Controle de acesso avançado
+
+Observação: 
+No NestJS, essas responsabilidades ficam melhor em:
+. Guards
+. Pipes
+. Interceptors
+
+4. Middleware no NestJS - Conceito
+No NestJS, um middleware é:
+. Uma classe
+. Que implementa a interface NestMiddleware
+. Possui um método use()
+
+Observações importantes:
+. O log é criado após a resposta
+. O tempo de execução é calculado
+. Nenhuma regra de negócio aqui
+
+
+5. Registrando o Middleware no NestJS
+Middleware não é automático
+No NestJS, você registra middleware explicitamente
+
+Possibilidade de escopo
+Você pode aplicar Middleware:
+. Para todas as rotas
+. Para rotas específicas
+. Para métodos HTTP específicos
+
+
+6. Conexão com a Central de Logs
+Papel do middleware no projeto
+No projeto da central de logs, o middleware será responsável por:
+. Captar dados da requisição
+. Criar o log base
+. Enviar esse log para:
+    . Service layer
+    . ORM
+    . Banco de dados
+
+
+Resumo:
+O middleware no NestJS é uma ferramenta poderosa para interceptar requisições HTTP e executar código transversal à aplicação. Ele deve ser usado para tarefas como logging, métricas e autenticação simples, mantendo a separação de responsabilidades clara e evitando misturar lógica de negócio com infraestrutura.
+
