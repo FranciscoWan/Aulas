@@ -1,0 +1,24 @@
+Inteceptor -
+Um interceptor envolve a execução do controller/service, podendo:
+
+. Executar código antes
+. Executar código depois
+. Medir tempo
+. Transformar em respostas
+. Reagir a erros
+
+observação: Muito parecido com AOP (Aspect-Oriented Programing).
+
+Quando usar Interceptor?
+Casos ideais:
+. Medir tempo de execução
+. Ajustar nível de log
+. Transformar resposta
+. Adicionar metadados
+
+Quando NÃO usar:
+. Não para tratar exceções finais
+
+
+
+

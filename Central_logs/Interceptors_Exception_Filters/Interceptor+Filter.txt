@@ -1,0 +1,12 @@
+Como interceptor + Filter trabalham juntos?
+
+. Middleware -> cria log base
+. Interceptor -> adiciona status, tempo, sucesso
+. Exception Filter -> adiciona erro
+
+Onde salvar o log?
+O Exception Filter:
+. Constrói o log de erro
+. Chama o LogService
+. Persiste via ORM
+

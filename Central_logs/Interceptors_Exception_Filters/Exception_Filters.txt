@@ -1,0 +1,19 @@
+Exception Filter -
+Um Exception Filter é responsável por capturar exceções lançadas na aplicação:
+
+Ele:
+. Intercepta erros
+. Padroniza respostas
+. Pode registrar logs
+. Decide o que o cliente recebe
+
+Observação: Ele é o último ponto do pipeline
+
+Quando usar Exception Filter?
+Casos ideais:
+. Capturar exceções
+. Padronizar erro
+. Logar falhas
+. Mapear erros técnicos -> erro de negócio
+
+
