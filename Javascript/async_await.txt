@@ -1,0 +1,20 @@
+async e await
+
+A declaração async function define uma função assíncrona, que retorna um objeto AsyncFunction.
+TODA FUNÇÃO async RETORNA UMA PROMISE.
+Quando a função assíncrona retorna um valor, a Promise será resolvida com o valor retornado. Quando a função assíncrona lança uma exceção ou algum valor, a Promise será rejeitada com o valor lançado.
+Uma função assíncrona pode conter uma expressão await, que pausa a execução da função assíncrona e espera pela resolução da Promise passa, e depois retoma a execução da função assíncrona e retorna o valor resolvido.
+
+A proposta das funções async/await é de simplificar o uso de forma síncrona das Promises e executar alguns procedimentos em um grupo de Promises.
+
+await:
+. Pausa a função
+. Não trava o programa
+. Só funciona dentro de async
+
+Tratamento de erro com try, catch.
+
+Caso o erro ocorra fora do fluxo comum do código, é necessário usar o await para captar este erro.
+
+
+

@@ -1,0 +1,9 @@
+Node.js
+
+É um ambiente de execução JavaScript multiplataforma que permite aos desenvolvedores criar aplicativos de servidor e de rede com JavaScript.
+
+Gerenciador de pacotes do Node (npm)
+O npm é um gerenciador de pacotes que é baixado e incluído junto com o Node.js. Seu cliente de linha de comando (CLI) npm pode ser usado para baixar, configurar e criar pacotes para uso em projetos Node.js. Os pacotes baixados podem ser importados por meio de importações ES e CommonJSrequire sem a necessidade de incluir o diretório de dependências node_modules/ para o qual foram baixados, já que o Node.js resolve pacotes mesmo sem um caminho relativo ou absoluto especificado em sua importação. 
+
+Comando de execução:
+Node [nome_arquivo.js]

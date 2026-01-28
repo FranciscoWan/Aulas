@@ -1,0 +1,25 @@
+Promise - O contrato do futuro
+
+A promise só resolve UMA vez, fluxo normal de código.
+
+O Promise() construtor cria Promise objetos. Ele é usado principalmente para encapsular APIs baseadas em callbacks que ainda não suportam promises.
+Promise() só pode ser construído com new. Tentar chamá-lo sem new lança uma exceção TypeError.
+
+Promise representa um valor que: 
+. Vai existir no futuro
+. Pode dar certo ou errado
+
+Estados:
+. pending
+. fulfilled
+. rejected
+
+.then() e .catch()
+
+.then() executa quando resolve é chamado
+.catch() executa quando reject é chamado
+
+Sempre encadeie then e catch na mesma Promise chain
+
+Não confie em múltiplos handlers soltos
+

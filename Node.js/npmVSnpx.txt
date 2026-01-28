@@ -1,0 +1,7 @@
+O npm (Node Package Manager) é um gerenciador de pacotes usado para instalar, gerenciar e compartilhar dependências em projetos, instalando-as local ou globalmente.
+. npm (Instalação e Gerenciamento): Instala pacotes no seu projeto (node_modules) ou globalmente (npm install -g). Ideal para dependências de longo prazo, como bibliotecas (React, Express)
+
+O npx (Node Package Executor) é um executor de pacotes que permite rodar binários do npm diretamente, sem precisar instalá-los, ideal para ferramentas de uso único ou testes rápidos.
+. npx (Execução de Comandos): Baixa o pacote, executa-o e, em seguida, remove-o, economizando espaço em disco. Ideal para ferramentas CLI (ex: npx create-react-app, npx tailwindcss)
+
+Em suma, usa-se npm para instalar dependências necessárias para o funcionamento do projeto e npx para rodar ferramentas utilitárias temporárias. 
