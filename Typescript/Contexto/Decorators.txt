@@ -1,0 +1,94 @@
+Decorators são funções que adicionam comportamento a classes ou membros de classe de forma declarativa, usando a sintaxe:
+@decorator
+
+Eles permitem modificar ou estender:
+. Classes
+. Métodos
+. Propriedade
+. Acessors
+. Campos
+
+São muito usados para:
+. Injeção de dependência
+. Logging
+. Validação
+. Metadata 
+. Cache
+. Controle de acesso
+
+
+1 - Decorator de Classe:
+
+@Module()
+. Define um módulo Nest
+. Armazena metadata usando Reflect.defineMetadata
+. O NestContainer lê essa metadata no bootstrap
+. Registra providers no DI container
+Responsabilidade - Organização e escopo da aplicação
+
+@Injectable()
+. Marca uma classe como injetável pelo container
+. Adiciona metadata que permite resolver dependências
+. O Nest usa design:paramtypes (emitido pelo TS)
+. Container resolve dependências recursivamente
+Quando usar: Sempre que a classe precisar ser injetada.
+
+@Controller()
+. Define um controller HTTP
+. Define metadata de rota base
+. RouterExplorer monta as rotas
+. Integra com Express ou Fastify
+
+
+2 - Decorators de Rotas:
+
+@Get()
+@Post()
+@Put()
+@Delete()
+@Patch()
+@Options()
+@Head()
+@All()
+. Define metadata de método
+. Armazena HTTP method + path
+. RouterExplorer vincula ao servidor HTTP
+
+
+3 - Decorators de Parâmetro:
+. Parameter decorators
+. Registram metadata indicando de onde extrair valor
+. O RouteParamsFactory resolve em runtime
+
+@Param()
+. Extrai parâmetros da rota
+
+@Body()
+. Extrai o body da requisição
+
+@Query()
+. Extrai query params
+
+@Headers()
+. Extrai headers
+
+@Ip()
+. Retorna IP da requisição
+
+@HostParam()
+. Parâmetros do host
+
+@Req() / @Request()
+. Acesso direto ao request
+
+@Res() / @Response()
+. Acesso direto ao response
+. Ao usar o @Res() você assume controle manual da resposta.
+
+@Next()
+. Acesso ao next() do Express
+
+
+
+
+

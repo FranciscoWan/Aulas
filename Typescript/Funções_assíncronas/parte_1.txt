@@ -1,0 +1,19 @@
+O JavaScript é single-thread, o que quer dizer que executa uma tarefa ou instrução por vez, no caso ela segue uma LÓGICA LINEAR e SEQUENCIAL de programação. Isso significa que ela possui apenas uma Call Stack, passando para a próxima tarefa somente após finalizar a atual.
+
+Assincronismo: Embora a execução seja linear, linguagens single-thread modernas (como JavaScript) utilizam um event loop e programação assíncrona (Promises, async/await) para gerenciar tarefas demoradas. Elas não executam em paralelo, mas liberam a thread para fazer outras coisas enquanto esperam por uma resposta (como ler um arquivo ou uma API).
+
+Promises em Javascript são objetos que representam o resultado eventual (sucesso ou falha) de uma operação assíncrona, agindo como um "placeholder" para um valor futuro, permitindo lidar com operações demoradas (como requisições de rede) de forma mais organizada e legível, usando métodos como 
+.then() para sucesso e .catch() para falhas, evitando o "callback hell". Elas tem estado (pendente, cumprida/resolvida, rejeitada) e permitem encadear ações assíncronas.
+
+Como funcionam:
+A função assíncrona retorna uma Promise, e o código continua executando. A promisse "promete" entregar um valor (sucesso) ou um erro (falha) mais tarde.
+
+Estados: Uma Promise pode estar em três estados:
+. Pending (Pendente): Estado inicial, a operação ainda está em andamento.
+. Fulfilled (Cumprida/Resolvida): A operação foi concluída com sucesso, e a Promise tem um valor.
+. Rejected (Rejeitada): A operação falhou, e a Promise tem um motivo (erro).
+
+Consumo: Você usa métodos para "escutar" a Promise:
+.then(callback): Executa o callback quando a Promise é cumprida, recebendo o valor de sucesso.
+.catch(callback): Executa o callback quando a Promise é rejeitada, recebendo o erro.
+.finally(callback): Executa o callback sempre, independente do resultado.

@@ -1,0 +1,64 @@
+1 - Manipulação de objetos:
+
+# new
+Cria uma instância de uma função construtora ou classe.
+Quando você usa new:
+Cria um novo objeto vazio {}
+Define o prototype
+Executa o construtor
+Retorna o objeto
+
+Só é possível instanciar um novo objeto apartir de uma class com new.
+
+
+# this
+Refere-se ao contexto de execução atual.
+O valor this depende de como a função é chamada.
+Dentro de objetos consegue acessar tanto os métodos quanto as propriedades.
+
+
+# delete
+Remove uma propriedade de um objeto. 
+Não funciona para variáveis declaradas com let ou const.
+
+
+# instanceof
+Verifica se um objeto é instancia de uma classe.
+Retorna um booleano.
+Prefira checagens explícitas ou typeof para tipos primitivos.
+
+
+2 - Tratamento de erros:
+
+# try
+"tente" executar o código. 
+Bloco que inicia o código e tenta executar primeiro.
+
+# catch
+Captura o erro, caso o try gere um erro. 
+Não conseguiu executar o try gerando erro.
+
+# finally
+Faz parte do bloco de try e catch, mas sempre é executado, independente de gerar erro ou não.
+Ideal para tarefas de "limpeza", como:
+. Fechar conexões de banco de dados.
+. Fechar arquivos abertos.
+. Parar um ícone de "carregando" (loader) em uma interface web.
+
+# throw
+Lança um erro manualmente
+
+
+3 - Outros:
+
+# typeof
+Retorna o tipo de dado
+
+# void
+Tipo de dado que retorna undefined.
+Utilizado em funções que não retornam valor, apenas executam ações.
+
+
+
+
+
