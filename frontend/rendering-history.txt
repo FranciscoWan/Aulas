@@ -1,0 +1,29 @@
+Server-Side rendering
+
+Era: Primordios da Web (anos 90 - início dos 2000) e retorno no moderno.
+Como funciona: O navegador solicita uma página, o servidor processa a lógica, busca dados no banco de dados e gera o HTML completo. O servidor envia o HTML pronto para o navegador. Todo clique de link gera uma recarga completa da página.
+
+Status: Continua essencial para o SEO e carregamento inicial rápido.
+
+
+Client-Side Rendering inicial
+
+Era: Meados dos anos 2000 (após 2005).
+Como funciona: As páginas começaram a carregar conteúdo dinamicamente sem recarregar o navegador inteiro. Isso permitiu manipulação básica no cliente (o javascript atualizava partes do HTML gerado pelo servidor).
+
+
+Client-Side Rendering (CSR) e SPAs
+
+Era: Anos 2010 (Ascenção de Single Page Applications - SPAs).
+Como funciona: O servidor envia um arquivo HTML quase vazio e um arquivo JavaScript grande. O navegador (cliente) executa o JS para montar todo o conteúdo da página (renderização no cliente).
+Contexto Histórico: popularizado por bibliotecas como AngularJS, e posteriormente React, Vue e Angular. Proporcionou experiências fluidas, similares a aplicativos nativos.
+
+-> Single Page application: Aplicações web que carregam uma única página HTML inicial e atualizam o conteúdo de forma assíncrona (via JavaScript e API) sem recarregar o navegador. Proporcionam uma experiência de usuário rápida e fluida, semelhante a aplicativos desktop, comumente usados em plataformas como Gmail, Google Maps e redes sociais.
+
+
+Era Híbrida (SSR Moderno / "Universal Rendering")
+
+Era: A partir de 2015-2016 até o presente (Next.js, Nuxt.js, SvelteKit)
+Como funciona: Combina o melhor dos dois mundos -> o servidor renderiza a página no primeiro acesso (SEO/Rapidez - SSR) e, em seguida, o JavaScript assume para tornar a navegação interativa (Interatividade - CSR).
+Status: A abordagem "Universal" ou "Isomórfica" é considerada o padrão moderno.
+

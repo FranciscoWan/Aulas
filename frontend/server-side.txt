@@ -1,0 +1,11 @@
+Ordem:
+1 - Requisição: O usuário acessa uma URL
+2 - Processamento: O servidor executa os scripts (como PHP, Node.Js ou C#) e busca dados em bancos de dados ou APIs.
+3 - Entrega: O servidor envia o HTML completo e estilizado para o navegador
+
+Principais vantagens:
+-> Melhor SEO: Como o conteúdo já vem pronto no HTML, motores de busca como o Google conseguem indexar as páginas com muito mais facilidade e precisão.
+-> Carregamento inicial rápido: O usuário vê o conteúdo principal quase instantaneamente, o que é ideal para conexões lentas ou dispositivos menos potentes.
+
+Quando utilizar:
+É a escolha ideal para e-commerces, blogs e portais de notícias, onde a visibilidade orgânica (SEO) e a velocidade de abertura são críticas para converter o usuário. 

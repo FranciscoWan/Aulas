@@ -1,0 +1,21 @@
+Ordem:
+1 - Requisição: O usuário acessa um site.
+2 - Resposta: O servidor envia um HTML "casca" e o JavaScript da aplicação.
+3 - Processamento: O navegador baixa o JavaScript e o executa.
+
+Principais vantagens: 
+-> Melhor interatividade: Após o carregamento inicial, a navegação entre páginas é muito rápida e fluida, pois não é necessário recarregar a página inteira, tornando-a ideal para Single Page Applications (SPAs).
+-> Menos carga no servidor: Como o navegador realiza o trabalho de enderização, o servidor web fica focado apenas no envio e dados.
+
+Desvantagens:
+-> Carregamento inicial mais lento: Pode haver um "período de tela branca" enquanto o navegador baixa e compila o javascript, especialmente em conexões lentas.
+-> SEO (Otimização para Motores de Busca) desafiador: Embora o Google consiga processar JavaScript, sites CSR podem demorar mais para serem indexados corretamente. 
+-> Consumo de processamento: A carga é transferida para o dispositivo do usuário (celular/computador), o que pode ser um problema para dispositivos menos potentes.
+
+Quando utilizar o CSR:
+O CRS é recomendado para aplicações ricas em interações, como: 
+. Dashboards e painéis administrativos.
+. Aplicativos web dinâmicos (ex: ferramentas de gestão).
+. Softwares comerciais onde o SEO não é prioridade.
+
+Frameworks populares como React, Angular e Vue.js são frequentemente usados como CSR.
