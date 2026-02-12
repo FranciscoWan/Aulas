@@ -1,5 +1,11 @@
 # ESTUDO COMPLETO DO FRONTEND COM ANGULAR
 
+### Bibliotecas Angular
+- [ngBootstrap](https://ng-bootstrap.github.io/)
+- [ngxBootstrap](https://valor-software.com/ngx-bootstrap/components)
+- [PrimeBlocks](https://primeblocks.org/free)
+- [Nebular](https://akveo.github.io/nebular/docs/components/components-overview)
+
 
 ## 1️⃣ O que é Angular (visão arquitetural)
 
