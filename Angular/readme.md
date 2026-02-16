@@ -5,6 +5,7 @@
 - [ngxBootstrap](https://valor-software.com/ngx-bootstrap/components)
 - [PrimeBlocks](https://primeblocks.org/free)
 - [Nebular](https://akveo.github.io/nebular/docs/components/components-overview)
+- [Modelo-Calendário](https://www.htmlelements.com/angular/demos/scheduler/overview/)
 
 
 ## 1️⃣ O que é Angular (visão arquitetural)
