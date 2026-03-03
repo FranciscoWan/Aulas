@@ -36,8 +36,12 @@ Aqui estão alguns links que podem ajudar durante seus estudos:
 - [Gerador de gradiente-2](https://www.finisher.co/lab/header/)
 
 
-🔤  **Fontes**  
+🔤 **Fontes**  
 - [Google Fonts](https://fonts.google.com/)
+
+ℹ️ **Icons**
+- [Font Awesome](https://fontawesome.com/start)
+- [Material Design Icons](https://pictogrammers.com/libraries/)
 
 ## 🚀 Como Aproveitar Melhor  
 1. **Siga a ordem dos módulos** para construir uma base sólida  
