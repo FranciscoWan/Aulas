@@ -42,6 +42,7 @@ Aqui estão alguns links que podem ajudar durante seus estudos:
 ℹ️ **Icons**
 - [Font Awesome](https://fontawesome.com/start)
 - [Material Design Icons](https://pictogrammers.com/libraries/)
+- [Lucide](https://lucide.dev/icons/)
 
 ## 🚀 Como Aproveitar Melhor  
 1. **Siga a ordem dos módulos** para construir uma base sólida  
